@@ -19,10 +19,12 @@ window.onload = () => {
         }
     }
     heart.onclick = () => {
-        if(heart.className == "bx bx-heart")
+        if (heart.className == "bx bx-heart") {
             heart.className = "bx bxs-heart";
-        else{
-            heart.className ="bx bx-heart";
+            heart.setAttribute("style", "right:unset;left: 20px;");
+        }
+        else {
+            heart.className = "bx bx-heart";
         }
     }
 }
