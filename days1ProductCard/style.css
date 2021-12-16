@@ -1,0 +1,141 @@
+:root{
+    --main-color: #4daf54;
+}
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    overflow: hidden;
+}
+.card{
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background-color: rgb(62, 63, 71);
+    border-radius: 15px;
+    color: white;
+    padding: 40px 20px;
+    position:relative;
+}
+.card__img{
+    width:100%;
+    transition: 0.5s;
+}
+img{
+    width:100%;
+    height: 75%;
+    object-fit:contain;
+    object-position: center -40px;
+    transform: rotateY(180deg);
+}
+.card:hover .card__img{
+    transform: translate(0,-90px) rotate(-20deg);
+}
+.card__title{
+   color: var(--main-color);
+   transition: 0.5s;
+   text-align: center;
+   margin-top: -80px;
+}
+.card__price{
+    font-weight: 600;
+    font-size: 26px;
+    transition: 0.5s;
+    text-align: center;
+}
+.card:hover .card__title{
+    transform: translate(-14px, -60px);
+}
+.card:hover .card__price{
+    transform: translate(-120px, -60px);
+}
+.card__size,
+.card__color,
+.card__action{
+    opacity:0;
+    visibility:hidden;
+    transition: 0.5s;
+}
+.card__size{
+    margin-top:70px;
+}
+.card:hover .card__size{
+    margin-top: -18px;
+}
+.card:hover .card__size,
+.card:hover .card__color,
+.card:hover .card__action{
+    transition-delay: 0.2s;
+    visibility: visible;
+    opacity:1;
+}
+.card__color, .card__size{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.card__size h3, 
+.card__color h3{
+    font-weight: unset;
+    margin-right: 15px;
+}
+.card__size span{
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card__size span:focus{
+    background-color: var(--main-color);
+    color:white;
+}
+.red, .green, .blue{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.red{
+    background-color: rgb(218, 20, 20);
+}
+.green{
+    background-color: rgb(46, 197, 46);
+
+}
+.blue{
+    background-color: rgb(68, 68, 233);
+}
+.card__action button{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline:none;
+    font-weight: 700;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card__action button:hover{
+    transform: scale(0.9);
+}
+.bx{
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+}
+.bx-heart{
+    right:unset;
+    left: 20px;
+}
