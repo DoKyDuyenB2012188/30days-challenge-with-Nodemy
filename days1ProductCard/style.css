@@ -137,7 +137,7 @@ img{
     top: 20px;
     font-size: 20px;
 }
-.bx-heart{
+.bx-heart, .bxs-heart{
     right:unset;
     left: 20px;
 }
