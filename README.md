@@ -5,4 +5,4 @@
 #
 - [X] [Product Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days1ProductCard/index.html) (16/12/2021)
 - [X] [Profile Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days2ProfileCard/index.html) (17/12/2021)
-- [X] [Create Modal]() (18/12/2021)
+- [] [Create Modal]() (18/12/2021)
