@@ -4,4 +4,4 @@
 - [Link github](https://github.com/namndwebdev/html-css-js-thuc-chien)
 #
 - [X] [Product Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days1ProductCard/index.html) (16/12/2021)
-- [X] [Profile Card]() (17/12/2021)
+- [] [Profile Card]() (17/12/2021)
