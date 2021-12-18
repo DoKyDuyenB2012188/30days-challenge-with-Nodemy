@@ -5,3 +5,7 @@
 #
 - [X] [Product Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days1ProductCard/index.html) (16/12/2021)
 - [X] [Profile Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days2ProfileCard/index.html) (17/12/2021)
+- [ ] [Create Modal]() (18/12/2021)
+- [ ] [Image Gallery]() (19/12/2021)
+- [ ] [Search Box]() (20/12/2021)
+- [ ] [Detect Pressed Key]() (21/12/2021)
