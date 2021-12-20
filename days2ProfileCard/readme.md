@@ -1,4 +1,4 @@
-# PRODUCT CART
+# PROFILE CARD
 ## Properties
 - pointer-events: none;
 ## Trick

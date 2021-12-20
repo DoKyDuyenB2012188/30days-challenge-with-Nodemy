@@ -7,5 +7,5 @@
 - [X] [Profile Card](https://tarykege.github.io/30days-challenge-with-Nodemy/days2ProfileCard/index.html) (17/12/2021)
 - [X] [Create Modal](https://tarykege.github.io/30days-challenge-with-Nodemy/days3CreateModal/index.html) (18/12/2021)
 - [X] [Image Gallery](https://tarykege.github.io/30days-challenge-with-Nodemy/days4ImageGallery/index.html) (19/12/2021)
-- [ ] [Search Box]() (20/12/2021)
+- [X] [Search Box](https://tarykege.github.io/30days-challenge-with-Nodemy/days5SearchBox/index.html) (20/12/2021)
 - [ ] [Detect Pressed Key]() (21/12/2021)
