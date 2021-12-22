@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lato&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(109, 201, 116),rgb(0, 252, 21));
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    /* font-size: 16px; */
+}
+.title {
+    font-weight: 600;
+    font-size: 27px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.content li {
+    list-style: none;
+    border-radius: 5px;
+    background-color: rgb(109, 201, 116);
+    padding: 10px;
+    margin: 4px 3px;
+    color: white;
+    align-items: center;
+}
+.content li i {
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.content input {
+    border: none;
+    outline: none;
+    font-size: 21px;
+    padding: 5px;
+}
+.btn-removeAll {
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(109, 201, 116);
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.btn-removeAll:hover {
+    background-color: rgb(75, 163, 82);
+}
