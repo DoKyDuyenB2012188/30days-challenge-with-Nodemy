@@ -10,3 +10,8 @@
 - [X] [Search Box](https://tarykege.github.io/30days-challenge-with-Nodemy/days5SearchBox/index.html) (20/12/2021)
 - [X] [Detect Pressed Key](https://tarykege.github.io/30days-challenge-with-Nodemy/days6DetectPressedKey/index.html) (21/12/2021)
 - [X] [Search Tags](https://tarykege.github.io/30days-challenge-with-Nodemy/days7SearchTag/index.html) (22/12/2021)
+```
+ - Tập hợp các đỉnh: Vertices (V)
+Tập hợp cung: Edges (E)
+Đơn đồ thị vô hướng
+```
