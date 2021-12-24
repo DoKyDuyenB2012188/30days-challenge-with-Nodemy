@@ -11,5 +11,5 @@
 - [X] [Detect Pressed Key](https://tarykege.github.io/30days-challenge-with-Nodemy/days6DetectPressedKey/index.html) (21/12/2021)
 - [X] [Search Tags](https://tarykege.github.io/30days-challenge-with-Nodemy/days7SearchTag/index.html) (22/12/2021)
 - [X] [Register Form Validator](https://tarykege.github.io/30days-challenge-with-Nodemy/days8RegisterFormValidator/index.html) (23/12/2021)
-- [X] [Weather App](https://tarykege.github.io/30days-challenge-with-Nodemy/days9WeatherApp/index.html) (23/12/2021)
+- [X] [Weather App](https://tarykege.github.io/30days-challenge-with-Nodemy/days9WeatherApp/index.html) (24/12/2021)
 
